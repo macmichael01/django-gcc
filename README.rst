@@ -2,15 +2,16 @@ django-gcc (Django Google Closure Compiler) is an easy way to compress
 JavaScript files on the fly.
 
 The project is based largely on David Ziegler's Django-css but without the css.
-This project uses the Google Closure Compiler and supports making API requests 
-or downloading and the compile.jar file and placing in somewhere accessible.
+Django-gcc uses the Google Closure Compiler and supports making an API request
+to google's compiler or downloading and the compile.jar file and placing in 
+somewhere accessible.
 
 At some point, I would like to add this back into django-css.
 
 Requirements::
 
 BeautifulSoup
-Google Closure Compiler (http://code.google.com/closure/compiler/)(optional)
+Google Closure Compiler ( http://code.google.com/closure/compiler/ ) (optional)
 
 Installation::
 
